@@ -1,16 +1,24 @@
-# cnc
+# CNC Milling Calculator
 
-A new Flutter project.
+A Flutter application for calculating CNC milling parameters.
+
+## Features
+
+- Calculate RPM based on cutting speed and tool diameter
+- Calculate cutting speed from RPM and diameter
+- Calculate feed rate using RPM, flutes, and feed per tooth
+- Pre-configured material presets (Aluminum, Steel, Stainless Steel, Titanium)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Materials Included
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Aluminum (Vc: 250 m/min)
+- Mild Steel (Vc: 120 m/min)
+- Stainless Steel (Vc: 90 m/min)
+- Titanium (Vc: 60 m/min)
